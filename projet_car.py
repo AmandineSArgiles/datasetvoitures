@@ -49,4 +49,6 @@ else:
 	st.subheader("Observation sur les corrélations pour l'Europe:")
 	st.write("On observe une corrélation positive entre weigthts et cylinders")
 	st.write("On observe une corrélation négative entre hp et time-to-60")
+	
+st.header("Graphiques:")
 
