@@ -64,4 +64,4 @@ if genre == " Japan.":
 elif genre == " US.":
 	st.write("On peut observer qu'aux USA il y a plus de grosses cylindrées (entre 7 et 9 cylindres)")
 else:
-	st.write("On peut observer qu'en Europe la majorité des véhicules sont des 4 cylindres mais qu'il y a aussi des véhciules allant jusqu'à 6 cylindres")
+	st.write("On peut observer qu'en Europe la majorité des véhicules sont des 4 cylindres mais qu'il y a aussi des véhicules allant jusqu'à 6 cylindres")
