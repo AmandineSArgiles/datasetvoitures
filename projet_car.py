@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import plotly.figure_factory as ff
+import plotly.express as px
 
 
 st.title('Hey Wilders, voici mon étude sur le dataset voiture')
