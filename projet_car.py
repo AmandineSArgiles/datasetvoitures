@@ -7,6 +7,7 @@ import plotly.express as px
 
 
 st.title('Hey Wilders, voici mon étude sur le dataset voiture')
+st.write("Ebauche d'appli")
 
 st.header("Le dataframe df_car:")
 
@@ -55,5 +56,12 @@ else:
 st.header("Graphiques:")
 
 df = df_car[cond]
-fig = px.histogram(df, x="cylinders")
+fig = px.histogram(df, x="cylinders", title = "Total de voitures par nombres de cylindres")
 st.plotly_chart(fig, use_container_width = True)
+
+if genre == " Japan.":
+	st.write("On peut observer qu'au Japon la majorité des véhicules sont des 4 cylindres et qu'il n'y a pas de 5 cylindre")
+elif genre == " US.":
+	st.write("On peut observer qu'aux USA il y a plus de grosses cylindrées (entre 7 et 9 cylindres)")
+else:
+	st.write("On peut observer qu'en Europe la majorité des véhicules sont des 4 cylindres mais qu'il y a aussi des véhciules allant jusqu'à 6 cylindres")
