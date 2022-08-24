@@ -35,7 +35,7 @@ st.pyplot(viz_correlation.figure)
 if genre == " Japan.":
 
 	st.subheader("Observation sur les corrélations pour le Japon :")
-	st.write("On observe une corrélation positive entre year et time-to-60")
+	st.write("On observe une corrélation positive entre hp et weights")
 	st.write("On observe une corrélation négative entre hp et mpg")
 
 elif genre == " US.":
