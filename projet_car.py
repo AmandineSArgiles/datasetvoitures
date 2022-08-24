@@ -52,3 +52,6 @@ else:
 	
 st.header("Graphiques:")
 
+df = df_car[cond]
+fig = px.histogram(df, x="cylinders")
+st.plotly_chart(fig, use_container_width = True)
