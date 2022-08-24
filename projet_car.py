@@ -25,6 +25,8 @@ st.write('Vous avez sélectionné :', genre)
 
 cond = df_car["continent"] == genre
 st.write(df_car[cond])
+st.write("Affichage avec le filtre pour vérifier au cas où")
+
 
 st.header("Correlation:")
 
