@@ -21,9 +21,6 @@ continent = (' US.', ' Europe.', ' Japan.')
 genre = st.radio(
 		'Veuillez choisir un continent de la liste',
 		continent)
-genre = st.selectbox(
-     'Veuillez choisir un continent de la liste',
-     continent)
 
 st.write('Vous avez sélectionné :', genre)
 
